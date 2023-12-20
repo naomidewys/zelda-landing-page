@@ -19,21 +19,28 @@
       }
       p {
         text-align: center;
+        padding: 0 40px;
       }
       img {
         display: block;
         margin: 0 auto;
       }
       ul {
-        list-style: none;
-        line-height: 250%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 40px;
       }
       li {
-        display: inline;
+        list-style: none;
+        line-height: 1.5;
       }
       a {
         text-align: center;
         color: #d4ad5c;
+        padding: 0 10px;
       }
       strong {
         color: #d4ad5c;
@@ -71,6 +78,21 @@
       .coder {
         font-size: smaller;
       }
+
+      .row {
+        display: flex;
+        justify-content: center;
+      }
+
+      @media (max-width: 567px) {
+        img {
+          width: 200px;
+        }
+
+        p {
+          padding: 0 20px;
+        }
+      }
     </style>
   </head>
   <body>
@@ -92,190 +114,194 @@
       man of the elf-like Hylian race, and Princess Zelda, a magical princess
       who is the mortal reincarnation of the goddess Hylia, as they fight to
       save the magical land of Hyrule from Ganon, an evil warlord turned demon
-      king, who is the principal antagonist of the series. Ganon wishes to use
-      the Triforce, a sacred relic left behind by the three goddesses that
-      created Hyrule, to remake the world in his own dark image. When gathered
-      together, the power of the Triforce can grant any wish its user desires;
-      however, if someone with a heart that does not possess a balance of the
-      three virtues of
+      king, who is the principal antagonist of the series.
+      <br />
+      <br />
+      Ganon wishes to use the Triforce, a sacred relic left behind by the three
+      goddesses that created Hyrule, to remake the world in his own dark image.
+      <br />
+      <br />
+      When gathered together, the power of the Triforce can grant any wish its
+      user desires; however, if someone with a heart that does not possess a
+      balance of the three virtues of
       <em> Power, Courage, and Wisdom </em> attempts to touch the Triforce, it
       will split into three triangles and bond with three people whose hearts
       embody the required virtue.
     </p>
-    <div class="fullGames">
-      <ul>
-        <li>
-          <span class="gameTitle">
-            <a
-              href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda"
-              target="_blank"
-              >The Legend of Zelda</a
-            ></span
-          >
-          (1986)
-        </li>
-        <li>
-          <span class="gameTitle"
-            ><a
-              href="https://www.zeldadungeon.net/wiki/Zelda_II:_The_Adventure_of_Link"
-              target="_blank"
-              >Zelda II: The Adventure of Link</a
-            ></span
-          >
-          (1987)
-        </li>
-        <li>
-          <span class="gameTitle"
-            ><a
-              href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past"
-              target="_blank"
-              >A Link to the Past</a
-            ></span
-          >
-          (1991)
-        </li>
-        <br />
-        <li>
-          <span class="gameTitle"
-            ><a
-              href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Link%27s_Awakening"
-              target="_blank"
-              >Link's Awakening</a
-            ></span
-          >
-          (1993)
-        </li>
-        <li>
-          <span class="gameTitle"
-            ><a
-              href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Ocarina_of_Time"
-              target="blank"
-              >Ocarina of Time</a
-            ></span
-          >
-          (1998)
-        </li>
-        <li>
-          <span class="gameTitle"
-            ><a
-              href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Majora's_Mask"
-              target="_blank"
-              >Majora's Mask</a
-            ></span
-          >
-          (2000)
-        </li>
-        <br />
-        <li>
-          <span class="gameTitle"
-            ><a
-              href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Oracle_of_Seasons"
-              target="_blank"
-              >Oracle of Seasons</a
+    <div class="row">
+      <div class="col-sm-12 fullGames">
+        <ul>
+          <li>
+            <span class="gameTitle">
+              <a
+                href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda"
+                target="_blank"
+                >The Legend of Zelda</a
+              ></span
             >
-            and
-            <a
-              href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Oracle_of_Ages"
-              target="_blank"
-              >Oracle of Ages</a
-            ></span
-          >
-          (2001)
-        </li>
-        <li>
-          <span class="gameTitle"
-            ><a
-              href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_The_Wind_Waker"
-              target="_blank"
-              >The Wind Waker</a
-            ></span
-          >
-          (2002)
-        </li>
-        <br />
-        <li>
-          <span class="gameTitle"
-            ><a
-              href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_The_Minish_Cap"
-              target="_blank"
-              >The Minish Cap</a
-            ></span
-          >
-          (2004)
-        </li>
-        <li>
-          <span class="gameTitle"
-            ><a
-              href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Twilight_Princess"
-              target="_blank"
-              >Twilight Princess</a
-            ></span
-          >
-          (2006)
-        </li>
-        <li>
-          <span class="gameTitle"
-            ><a
-              href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Phantom_Hourglass"
-              target="_blank"
-              >Phantom Hourglass</a
-            ></span
-          >
-          (2007)
-        </li>
-        <br />
-        <li>
-          <span class="gameTitle"
-            ><a
-              href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Spirit_Tracks"
-              target="_blank"
-              >Spirit Tracks</a
-            ></span
-          >
-          (2009)
-        </li>
-        <li>
-          <span class="gameTitle"
-            ><a
-              href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Skyward_Sword"
-              target="_blank"
-              >Skyward Sword</a
-            ></span
-          >
-          (2011)
-        </li>
-        <li>
-          <span class="gameTitle"
-            ><a
-              href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_A_Link_Between_Worlds"
-              target="_blank"
-              >A Link Between Worlds</a
-            ></span
-          >
-          (2013)
-        </li>
-        <br />
-        <li>
-          <span class="gameTitle"
-            ><a
-              href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild"
-              target="_blank"
-              >Breath of the Wild</a
-            ></span
-          >
-          (2017)
-        </li>
-        <li>
-          <span class="gameTitle"
-            ><a
-              href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom"
-              target="_blank"
-              >Tears of the Kingdom</a
-            ></span
-          >
-          (2023)
-        </li>
-      </ul>
+            (1986)
+          </li>
+          <li>
+            <span class="gameTitle"
+              ><a
+                href="https://www.zeldadungeon.net/wiki/Zelda_II:_The_Adventure_of_Link"
+                target="_blank"
+                >Zelda II: The Adventure of Link</a
+              ></span
+            >
+            (1987)
+          </li>
+          <li>
+            <span class="gameTitle"
+              ><a
+                href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_A_Link_to_the_Past"
+                target="_blank"
+                >A Link to the Past</a
+              ></span
+            >
+            (1991)
+          </li>
+
+          <li>
+            <span class="gameTitle"
+              ><a
+                href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Link%27s_Awakening"
+                target="_blank"
+                >Link's Awakening</a
+              ></span
+            >
+            (1993)
+          </li>
+          <li>
+            <span class="gameTitle"
+              ><a
+                href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Ocarina_of_Time"
+                target="blank"
+                >Ocarina of Time</a
+              ></span
+            >
+            (1998)
+          </li>
+          <li>
+            <span class="gameTitle"
+              ><a
+                href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Majora's_Mask"
+                target="_blank"
+                >Majora's Mask</a
+              ></span
+            >
+            (2000)
+          </li>
+
+          <li>
+            <span class="gameTitle"
+              ><a
+                href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Oracle_of_Seasons"
+                target="_blank"
+                >Oracle of Seasons</a
+              >
+              and
+              <a
+                href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Oracle_of_Ages"
+                target="_blank"
+                >Oracle of Ages</a
+              ></span
+            >
+            (2001)
+          </li>
+          <li>
+            <span class="gameTitle"
+              ><a
+                href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_The_Wind_Waker"
+                target="_blank"
+                >The Wind Waker</a
+              ></span
+            >
+            (2002)
+          </li>
+
+          <li>
+            <span class="gameTitle"
+              ><a
+                href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_The_Minish_Cap"
+                target="_blank"
+                >The Minish Cap</a
+              ></span
+            >
+            (2004)
+          </li>
+          <li>
+            <span class="gameTitle"
+              ><a
+                href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Twilight_Princess"
+                target="_blank"
+                >Twilight Princess</a
+              ></span
+            >
+            (2006)
+          </li>
+          <li>
+            <span class="gameTitle"
+              ><a
+                href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Phantom_Hourglass"
+                target="_blank"
+                >Phantom Hourglass</a
+              ></span
+            >
+            (2007)
+          </li>
+          <li>
+            <span class="gameTitle"
+              ><a
+                href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Spirit_Tracks"
+                target="_blank"
+                >Spirit Tracks</a
+              ></span
+            >
+            (2009)
+          </li>
+          <li>
+            <span class="gameTitle"
+              ><a
+                href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Skyward_Sword"
+                target="_blank"
+                >Skyward Sword</a
+              ></span
+            >
+            (2011)
+          </li>
+          <li>
+            <span class="gameTitle"
+              ><a
+                href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_A_Link_Between_Worlds"
+                target="_blank"
+                >A Link Between Worlds</a
+              ></span
+            >
+            (2013)
+          </li>
+          <li>
+            <span class="gameTitle"
+              ><a
+                href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild"
+                target="_blank"
+                >Breath of the Wild</a
+              ></span
+            >
+            (2017)
+          </li>
+          <li>
+            <span class="gameTitle"
+              ><a
+                href="https://www.zeldadungeon.net/wiki/The_Legend_of_Zelda:_Tears_of_the_Kingdom"
+                target="_blank"
+                >Tears of the Kingdom</a
+              ></span
+            >
+            (2023)
+          </li>
+        </ul>
+      </div>
     </div>
     <button>Are you ready to save Hyrule?</button>
     <br />
